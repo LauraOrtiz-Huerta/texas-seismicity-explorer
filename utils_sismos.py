@@ -40,7 +40,7 @@ APP_NAME    = "Texas Seismicity Explorer"
 APP_AUTHOR  = "Dr. Laura Ortiz-Huerta"
 APP_VERSION = "v1.0"
 APP_DATE    = "March 2026"
-APP_CREDIT  = f"{APP_NAME} {APP_VERSION} — {APP_AUTHOR}, {APP_DATE}"
+APP_CREDIT  = f"{APP_NAME} {APP_VERSION} — {APP_AUTHOR}"
 
 # ============================================================
 # DATA SOURCES

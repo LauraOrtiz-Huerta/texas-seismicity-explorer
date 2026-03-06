@@ -502,7 +502,7 @@ if st.session_state.analysis_done and st.session_state.results is not None:
 
     # Measure Control (km and miles)
     MeasureControl(
-        position="topleft",
+        position="bottomright",
         primary_length_unit="kilometers",
         secondary_length_unit="miles",
         primary_area_unit="sqkilometers",
@@ -729,7 +729,7 @@ if st.session_state.analysis_done and st.session_state.results is not None:
     legend_html = """
     {% macro html(this, kwargs) %}
     <div style="position: absolute; 
-                bottom: 110px; left: 30px; width: 170px; height: auto; 
+                bottom: 70px; left: 10px; width: 170px; height: auto; 
                 background-color: rgba(26, 26, 46, 0.85);
                 border: 1px solid #3a3a5a; border-radius: 6px;
                 z-index:9999; font-family: sans-serif;
@@ -756,10 +756,10 @@ if st.session_state.analysis_done and st.session_state.results is not None:
         </div>
         <div style="margin-bottom:8px; font-weight:bold; color:#c7d2fe; text-align:center; border-top:1px solid #3a3a5a; padding-top:8px;">Station Type</div>
         <div style="margin-bottom:5px; display:flex; align-items:center;">
-            <svg width="14" height="14" style="margin-right:6px; margin-left:1px;"><polygon points="7,1 13,13 1,13" fill="#000000" stroke="white" stroke-width="1.2"/></svg> TexNet Perm.
+            <svg width="14" height="14" style="margin-right:6px; margin-left:1px;"><polygon points="7,1 13,13 1,13" fill="#000000" stroke="white" stroke-width="1.2"/></svg> TexNet Permanent
         </div>
         <div style="margin-bottom:5px; display:flex; align-items:center;">
-            <svg width="14" height="14" style="margin-right:6px; margin-left:1px;"><polygon points="7,1 13,13 1,13" fill="#00bfff" stroke="white" stroke-width="1.2"/></svg> TexNet Port.
+            <svg width="14" height="14" style="margin-right:6px; margin-left:1px;"><polygon points="7,1 13,13 1,13" fill="#00bfff" stroke="white" stroke-width="1.2"/></svg> TexNet Portable
         </div>
         <div style="margin-bottom:5px; display:flex; align-items:center;">
             <svg width="14" height="14" style="margin-right:6px; margin-left:1px;"><polygon points="7,1 13,13 1,13" fill="#cccccc" stroke="white" stroke-width="1.2"/></svg> Non-TexNet
